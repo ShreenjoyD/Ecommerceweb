@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./../styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/d5514ca804.js" crossorigin="anonymous"></script>
+    <title>Welcome to Hello Fashion</title>
+    <link rel="icon" type="image/x-icon" href="./../assets/images/favicon.ico">
+  </head>
+  <body>
+
+
+
+<section class="header_menu" id="header_menu">
+<div class="container-fluid px-0 shadow">
+<nav class="navbar navbar-expand-lg navbar-light bg-light py-3 " style="height:100px;">
+<a class="navbar-brand pl-5 pl-small-0" href="./../index.html">
+<img src="./../assets/images/logo.png" class="img img-fluid" width="100px"
+alt="logo">
+</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse"
+data-target="#navbarSupportedContent"
+aria-controls="navbarSupportedContent" aria-expanded="false"
+aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav mx-auto">
+<li class="nav-item active">
+<a class="nav-link" href="./../index.html">Home </a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="product.html">Product</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="category.html">Category</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="about.html">About Us</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="contact.html">Contact Us</a>
+</li>
+</ul>
+<div class="search mr-3">
+<a href="search.html" class="btn btn-sm btn-outline-primary">
+Search
+</a>
+</div>
+<div class="cart">
+<a href="cart.html">
+<i class="fas fa-shopping-cart fa-2x"></i>
+<span class="badge badge-pill badge-primary">24</span>
+</a>
+</div>
+</div>
+</nav>
+</div>
+</section>
+
+
+
+<section class="Checkout py-5 my-5" id="Checkout" style="background-color:rgb(20,255,255)">
+<div class="container " style="background-color:rgb(60,179,113);">
+<div class="section_title text-center mb-5">
+<h1 class="text-capitalize">Checkout</h1>
+</div>
+<div class="row">
+<!--Grid column-->
+<div class="col-lg-8">
+<!-- Card -->
+<div class="card bg_checkout_1 pb-5" style="background-color:rgb(60,179,113);">
+<div class="card-body" style="background-color:rgb(60,179,113);">
+<h5 class="mb-5">Billing details</h5>
+<!-- Grid row -->
+<div class="row">
+<!-- Grid column -->
+<div class="col-lg-6">
+<!-- First name -->
+<div class="form-group mb-0 mb-lg-4">
+<label for="firstName">First name</label>
+<input type="text" id="firstName" class="form-control mb-0
+mb-lg-2">
+</div>
+</div>
+<!-- Grid column -->
+<!-- Grid column -->
+<div class="col-lg-6">
+<!-- Last name -->
+<div class="form-group md-outline">
+<label for="lastName">Last name</label>
+<input type="text" id="lastName" class="form-control">
+</div>
+</div>
+<!-- Grid column -->
+</div>
+<!-- Grid row -->
+<!-- Phone -->
+<div class="form-group">
+<label for="form18">Phone</label>
+<input type="number" id="form18" class="form-control">
+</div>
+<!-- Email address -->
+<div class="form-group">
+<label for="form19">Email address</label>
+<input type="email" id="form19" class="form-control">
+</div>
+<!-- Country -->
+<div class="d-flex flex-wrap">
+<div class="w-100">
+<label>Country</label>
+<select class="custom-select form-group">
+<option value="" selected>Choose your option</option>
+<option value="1">Option 1</option>
+<option value="2">Option 2</option>
+<option value="3">Option 3</option>
+</select>
+</div>
+</div>
+<!-- Address Part 1 -->
+<div class="form-group">
+<label for="form14">Address Line 1</label>
+<input type="text" id="form14" placeholder="House number and
+street name"
+class="form-control">
+</div>
+<!-- Address Part 2 -->
+<div class="form-group">
+<label for="form15">Address Line 2</label>
+<input type="text" id="form15" placeholder="Apartment, suite, unit
+etc. (optional)"
+class="form-control">
+</div>
+<!-- Postcode / ZIP -->
+<div class="form-group">
+<label for="form16">Postcode / ZIP</label>
+<input type="text" id="form16" class="form-control">
+</div>
+<!-- Town / City -->
+<div class="form-group">
+<label for="form17">Town / City</label>
+<input type="text" id="form17" class="form-control">
+</div>
+<!-- Additional information -->
+<div class="form-group">
+<label for="form76">Additional information</label>
+<textarea id="form76" class="md-textarea form-control"
+rows="4"></textarea>
+</div>
+
+
+
+<div class="accordion accordion-flush" id="accordionFlushExample" style="padding:15px;">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+       Select Payment Method
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+
+
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+  <label class="form-check-label" for="exampleRadios1">
+    Cash On Delivery&nbsp;&nbsp;<i class="fa-solid fa-money-bill-wave"></i>
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+  <label class="form-check-label" for="exampleRadios2">
+    Net Banking
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+  <label class="form-check-label" for="exampleRadios3">
+    Debit/Credit/ATM Card&nbsp;&nbsp;<i class="fa-solid fa-credit-card"></i>
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4">
+  <label class="form-check-label" for="exampleRadios4">
+    UPI
+  </label>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+<div class="text-center" style="padding:20px;">
+<a href="./order_confirmation.html" class="btn btn-primary">
+<i class="fa fa-check mr-2"></i>Purchase
+</a>
+</div>
+</div>
+</div>
+<!-- Card -->
+</div>
+<!--Grid column-->
+<!--Grid column-->
+<div class="col-lg-4 bg_checkout_1 h-25 rounded" style="background-color:rgb(60,179,113);">
+<!-- Card -->
+<div class="mb-3" style="background-color:rgb(60,179,113);">
+<div class="pt-4">
+<h5 class="mb-3">Order summary</h5>
+<ul class="list-group list-group-flush">
+<li style="background-color:rgb(60,179,113);"
+class="list-group-item d-flex justify-content-between
+align-items-center border-0 px-0 pb-2">
+<span>Product name 1</span>
+<span>x2</span>
+<span>₹25.98</span>
+</li>
+<li style="background-color:rgb(60,179,113);"
+class="list-group-item d-flex justify-content-between
+align-items-center border-0 px-0 pb-2">
+<span>Product name 2</span>
+<span>x2</span>
+<span>₹25.98</span>
+</li>
+<li
+class="list-group-item d-flex justify-content-between
+align-items-center border-top px-0 mb-3" style="background-color:rgb(60,179,113);">
+<div>
+<strong>Total amount</strong>
+<strong>
+<p class="mb-0">(including VAT)</p>
+</strong>
+</div>
+<span><strong>₹53.98</strong></span>
+</li>
+</ul>
+</div>
+</div>
+<!-- Card -->
+</div>
+<!--Grid column-->
+</div>
+</div>
+</section>
+<section class="footer_section pt-5 pb-2" id="footer_section">
+<footer id="linkf">
+<div class="container-fluid" style="padding:10px;">
+<div class="row">
+<div class="col-md-3 col-6 pl-5 pl-small-15">
+<div class="footer_title">
+<a href="./../index.html"><img src="./../assets/images/logo.png" width="150px"
+class="img img-fluid" alt="logo"></a>
+</div>
+<div>
+Hello Fashion brings you the latest deals on products from all over India, and almost affordable in wholesale prices. 
+</div>
+</div>
+<div class="col-md-3 col-6">
+<div class="footer_title pt-3 mb-3">
+<h3>Quick Links</h3>
+</div>
+<div class="footer_links">
+<ul>
+<li><a href="./about.html" class="flink">About</a></li>
+<li><a href="" data-bs-toggle="tooltip" data-bs-title="Apply Coupon Code to avail various offers and discounts" class="flink">Offers and Discounts</a></li>
+<li><a href="" data-bs-toggle="tooltip" data-bs-title="Order products worth above 500/- and avail multiple coupons and vouchers" class="flink">Get Coupon</a></li>
+<li><a href="./contact.html" class="flink">Contact Us</a></li>
+</ul>
+</div>
+</div>
+<div class="col-md-3 col-6">
+<div class="footer_title pt-3 mb-3">
+<h3>New Products</h3>
+</div>
+<div class="footer_links">
+<ul>
+<li><a href="" data-bs-toggle="tooltip" data-bs-title="View our latest fashion for the cold season" class="flink">Winter Garments</a></li>
+<li><a href="" data-bs-toggle="tooltip" data-bs-title="View our Latest products on Fashion" class="flink">Fashion Accessories</a></li>
+<li><a href="" data-bs-toggle="tooltip" data-bs-title="View the latest kits of the teenagers" class="flink">Kits for Children</a></li>
+<li><a href="" data-bs-toggle="tooltip" data-bs-title="Buy the imported products in the same price as our homemade products" class="flink">Imported varieties</a></li>
+</ul>
+</div>
+</div>
+<div class="col-md-3 col-6">
+<div class="footer_title pt-3 mb-3">
+<h3>Support</h3>
+</div>
+<div class="footer_links">
+<ul>
+<li><a href="./contact.html#form" data-bs-toggle="tooltip" data-bs-title="Raise a Question by visiting the contacts page" class="flink">FAQs</a></li>
+<li><a href="" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="flink">Terms and Conditions</a></li>
+
+
+
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Our Terms and Conditions</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>1. All of our products are sold with the trademark symbol on them.<br></p>
+        <p>2. Customers should go through our refund policy before considering for refund of the purchased item. In short, we do not take products damaged on behalf of the customer or after a period of 7 working days.<br></p>
+        <p>3. As per the rules involved, we do not accept payments using cryptocurrency or any such informal methods of payment.<br></p>
+        <p>4. We package our products inside a small packet further covered by a re-usable carton.<br></p>
+        <p>5. We consider the rules of eco-system and therefore maintain a healthy environment for our employees to work in.<br></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<li><a href="" data-bs-toggle="modal" data-bs-target="#statbd" class="flink">Privacy Policy</a></li>
+
+
+
+<div class="modal fade" id="statbd" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="stabd">Our Privacy Policy</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      
+      <div class="modal-body">
+        <p>We consider the safety and security of all our customers and therefore develop all necessary steps to ensure our customers experience a reliable shopping. For more details, scan the following QR code.</p>
+        <div align="center"><i class="fa-solid fa-qrcode fa-2xl"></i></div>
+      </div>
+    </div>
+  </div>
+</div>
+</li>
+<li><a href="contact.html#form" class="flink">Report a Payment Issue</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="border-top">
+<h6 class="text-center mt-3" id="cr">Copyright ©2023 All rights reserved
+</h6>
+</div>
+</footer>
+</section>
+<div class="backtop">
+<a id="button" href="#top" class="btn btn-lg btn-outline-danger" role="button">
+<i class="fas fa-chevron-up text-dark"></i>
+</a>
+</div>
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
+<script>const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))</script>

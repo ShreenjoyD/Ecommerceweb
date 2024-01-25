@@ -1,0 +1,468 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/d5514ca804.js" crossorigin="anonymous"></script>
+  <title>Welcome to Hello Fashion</title>
+  <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+</head>
+
+<body>
+
+
+
+  <section class="header_menu" id="header_menu">
+    <div class="container-fluid px-0 shadow">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 " style="height:100px;">
+        <a class="navbar-brand pl-5 pl-small-0" href="index.html">
+          <img src="./assets/images/logo.png" class="img img-fluid" width="100px" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./html/product.html">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./html/category.html">Category</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./html/about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./html/contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <div class="search mr-3">
+            <a href="./html/search.html" class="btn btn-sm btn-outline-primary">
+              Search
+            </a>
+          </div>
+          <div class="cart">
+            <a href="./html/cart.html">
+              <i class="fas fa-shopping-cart fa-2x"></i>
+              <span class="badge badge-pill badge-primary">24</span>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </section>
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="./assets/images/children.jpg" class="d-block w-100" alt="card1">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./assets/images/children10.jpg" class="d-block w-100" alt="card2">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/images/salwar6.jpg" class="d-block w-100" alt="card3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <section class="shop_by_category py-5 my-5" id="shop_by_category">
+    <div class="container-fluid">
+      <div class="section_title text-center mb-5">
+        <h1 class="text-capitalize">Shop By category</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-12">
+          <div class="card bg-dark text-white">
+            <a href="./html/category.html">
+              <img class="card-img img img-fluid" src="./assets/images/kurta1.jfif" alt="Card image">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4 col-12 mt-small-5 mb-small-5">
+          <div class="card bg-dark text-white">
+            <a href="./html/category.html">
+              <img class="card-img img img-fluid" src="./assets/images/salwar5.jpg" alt="Card image">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4 col-12">
+          <div class="card bg-dark text-white">
+            <a href="./html/category.html">
+              <img class="card-img img img-fluid" src="./assets/images/children2.jpg" alt="Card image">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="products py-5 my-5 bg-light" id="products">
+    <div class="container ">
+      <div class="section_title text-center mb-5">
+        <h1 class="text-capitalize">Latest Products</h1>
+      </div>
+      <div class="row mb-5">
+        <div class="col-md-4 col-12">
+          <div class="single_product shadow text-center p-1">
+            <div class="product_img">
+              <a href="product_detail.html"><img src="./assets/images/jacket10.jpg" class="img img-fluid" alt=""></a>
+              <div class="new_product">
+                <span class="badge rounded-pill text-bg-danger">New</span>
+              </div>
+            </div>
+            <div class="product-caption my-3">
+              <div class="product-ratting">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h4><a href="product_detail.html" class="desc">Red and Black Jacket for Men</a></h4>
+              <div class="price">
+                <b><span class="mr-1">₹</span><span>1700</span></b>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-12">
+          <div class="single_product shadow text-center p-1 mt-small-5 mb-small-5">
+            <div class="product_img">
+              <a href="product_detail.html"><img src="./assets/images/jeans4.jpg" class="img img-fluid" alt=""></a>
+              <div class="new_product">
+                <span class="badge rounded-pill text-bg-danger">New</span>
+              </div>
+            </div>
+            <div class="product-caption my-3">
+              <div class="product-ratting">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h4><a href="product_detail.html" class="desc">Imported Jeans</a></h4>
+              <div class="price">
+                <b><span class="mr-1">₹</span><span>900</span></b>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-12">
+          <div class="single_product shadow text-center p-1">
+            <div class="product_img">
+              <a href="product_detail.html"><img src="./assets/images/salwar3.jpg" class="img img-fluid" alt=""></a>
+              <div class="new_product">
+                <span class="badge rounded-pill text-bg-danger">New</span>
+              </div>
+            </div>
+            <div class="product-caption my-3">
+              <div class="product-ratting">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h4><a href="product_detail.html" class="desc">Green Salwar</a></h4>
+              <div class="price">
+                <b><span class="mr-1">₹</span><span>800</span></b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-12">
+          <div class="single_product shadow text-center p-1">
+            <div class="product_img">
+              <a href="product_detail.html"><img src="./assets/images/children1.jpg" class="img img-fluid" alt=""></a>
+              <div class="new_product">
+                <span class="badge rounded-pill text-bg-danger">New</span>
+              </div>
+            </div>
+            <div class="product-caption my-3">
+              <div class="product-ratting">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h4><a href="product_detail.html" class="desc">Maroon Frock</a></h4>
+              <div class="price">
+                <b><span class="mr-1">₹</span><span>1000</span></b>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-12">
+          <div class="single_product shadow text-center p-1 mt-small-5 mb-small-5">
+            <div class="product_img">
+              <a href="product_detail.html"><img src="./assets/images/children2.jpg" class="img img-fluid" alt=""></a>
+              <div class="new_product">
+                <span class="badge rounded-pill text-bg-danger">New</span>
+              </div>
+            </div>
+            <div class="product-caption my-3">
+              <div class="product-ratting">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h4><a href="product_detail.html" class="desc">Party Frock</a></h4>
+              <div class="price">
+                <b><span class="mr-1">₹</span><span>1600</span></b>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-12">
+          <div class="single_product shadow text-center p-1">
+            <div class="product_img">
+              <a href="product_detail.html"><img src="./assets/images/tshirt3.jpg" class="img img-fluid" alt=""></a>
+              <div class="new_product">
+                <span class="badge rounded-pill text-bg-danger">New</span>
+              </div>
+            </div>
+            <div class="product-caption my-3">
+              <div class="product-ratting">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h4><a href="product_detail.html" class="desc">Black T-shirt</a></h4>
+              <div class="price">
+                <b><span class="mr-1">₹</span><span>1400</span></b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="feature py-5 mt-5" id="feature">
+    <div class="container">
+      <div class="section_title text-center mb-5">
+        <h1 class="text-capitalize">Our features</h1>
+      </div>
+      <div class="row text-white">
+        <div class="col-md-4 col-12 shadow p-3">
+          <div class="text-center">
+            <div class="mb-4">
+              <i class="fas fa-shipping-fast fa-3x mb-3 pt-2"></i>
+              <div>
+                <h3>Free Shipping Method</h3>
+              </div>
+            </div>
+            <div>
+              Hello Fashion delivers it's products to the customers, whatever be the quantity, at free of cost. We also
+              do not include any hidden charges on our product price, so our customers can browse for products without
+              having the overhead of charges.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-12 shadow p-3 mt-small-5 mb-small-5">
+          <div class="text-center">
+            <div class="mb-4">
+              <i class="fas fa-lock fa-3x mb-3 pt-2"></i>
+              <div>
+                <h3>Secure Payment System</h3>
+              </div>
+            </div>
+            <div>
+              We value the privacy of our customers. Also considering the safety and secured payment methods that we
+              accept are via debit, credit or any atm cards. Customers also have the option to tokenize their cards so
+              that they do not have to enter CVV or other confidential details in the future.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-12 shadow p-3">
+          <div class="text-center">
+            <div class="mb-4">
+              <i class="fas fa-headphones fa-3x mb-3 pt-2"></i>
+              <div>
+                <h3>24/7 Support</h3>
+              </div>
+            </div>
+            <div>
+              Our customer care service is open for the whole day. The service provides real-time assistance to the
+              customers and can resolve their doubts in no time. Besides, we have also brought a newly AI-powered chat
+              support for the same.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="footer_section pt-5 pb-2" id="footer_section">
+    <footer id="linkf">
+      <div class="container-fluid" style="padding:10px;">
+        <div class="row">
+          <div class="col-md-3 col-6 pl-5 pl-small-15">
+            <div class="footer_title">
+              <a href="index.html"><img src="./assets/images/logo.png" width="150px" class="img img-fluid"
+                  alt="logo"></a>
+            </div>
+            <div>
+              Hello Fashion brings you the latest deals on products from all over India, and almost affordable in
+              wholesale prices.
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="footer_title pt-3 mb-3">
+              <h3>Quick Links</h3>
+            </div>
+            <div class="footer_links">
+              <ul>
+                <li><a href="./html/about.html" class="flink">About</a></li>
+                <li><a href="" data-bs-toggle="tooltip"
+                    data-bs-title="Apply Coupon Code to avail various offers and discounts" class="flink">Offers and
+                    Discounts</a></li>
+                <li><a href="" data-bs-toggle="tooltip"
+                    data-bs-title="Order products worth above 500/- and avail multiple coupons and vouchers"
+                    class="flink">Get Coupon</a></li>
+                <li><a href="./html/contact.html" class="flink">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="footer_title pt-3 mb-3">
+              <h3>New Products</h3>
+            </div>
+            <div class="footer_links">
+              <ul>
+                <li><a href="" data-bs-toggle="tooltip" data-bs-title="View our latest fashion for the cold season"
+                    class="flink">Winter Garments</a></li>
+                <li><a href="" data-bs-toggle="tooltip" data-bs-title="View our Latest products on Fashion"
+                    class="flink">Fashion Accessories</a></li>
+                <li><a href="" data-bs-toggle="tooltip" data-bs-title="View the latest kits of the teenagers"
+                    class="flink">Kits for Children</a></li>
+                <li><a href="" data-bs-toggle="tooltip"
+                    data-bs-title="Buy the imported products in the same price as our homemade products"
+                    class="flink">Imported varieties</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="footer_title pt-3 mb-3">
+              <h3>Support</h3>
+            </div>
+            <div class="footer_links">
+              <ul>
+                <li><a href="./html/contact.html#form" data-bs-toggle="tooltip"
+                    data-bs-title="Raise a Question by visiting the contacts page" class="flink">FAQs</a></li>
+                <li><a href="" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="flink">Terms and
+                    Conditions</a></li>
+
+
+
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Our Terms and Conditions</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <p>1. All of our products are sold with the trademark symbol on them.<br></p>
+                        <p>2. Customers should go through our refund policy before considering for refund of the
+                          purchased item. In short, we do not take products damaged on behalf of the customer or after a
+                          period of 7 working days.<br></p>
+                        <p>3. As per the rules involved, we do not accept payments using cryptocurrency or any such
+                          informal methods of payment.<br></p>
+                        <p>4. We package our products inside a small packet further covered by a re-usable carton.<br>
+                        </p>
+                        <p>5. We consider the rules of eco-system and therefore maintain a healthy environment for our
+                          employees to work in.<br></p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+                <li><a href="" data-bs-toggle="modal" data-bs-target="#statbd" class="flink">Privacy Policy</a></li>
+
+
+
+                <div class="modal fade" id="statbd" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                  aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="stabd">Our Privacy Policy</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+
+                      <div class="modal-body">
+                        <p>We consider the safety and security of all our customers and therefore develop all necessary
+                          steps to ensure our customers experience a reliable shopping. For more details, scan the
+                          following QR code.</p>
+                        <div align="center"><i class="fa-solid fa-qrcode fa-2xl"></i></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </li>
+                <li><a href="./html/contact.html#form" class="flink">Report a Payment Issue</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="border-top">
+        <h6 class="text-center mt-3" id="cr">Copyright ©2023 All rights reserved
+        </h6>
+      </div>
+    </footer>
+  </section>
+  <div class="backtop">
+    <a id="button" href="#top" class="btn btn-lg btn-outline-danger" role="button">
+      <i class="fas fa-chevron-up text-dark"></i>
+    </a>
+  </div>
+
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
+<script>const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+  const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))</script>
